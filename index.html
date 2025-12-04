@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houzhaohan域名导航</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>houzhaohan的域名<span>导航</span></h1>
+            <p class="subtitle">按根域分类的域名索引页面，点击任意域名可直接访问</p>
+        </header>
+        
+        <div class="search-container">
+            <input type="text" class="search-box" id="searchInput" placeholder="搜索域名或描述...">
+        </div>
+        
+        <div class="domain-filter" id="domainFilter">
+            <!-- 根域筛选器将通过JavaScript动态生成 -->
+        </div>
+        
+        <div class="main-content" id="mainContent">
+            <!-- 根域容器将通过JavaScript动态生成 -->
+        </div>
+        
+        <footer class="footer">
+            <p>共 <span id="domainCount">0</span> 个子域 | <span id="activeCount">0</span> 个运行中</p>
+            <p style="margin-top: 5px; font-size: 0.85rem;">请联系我邮箱 email@houzhaohan.vip</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
