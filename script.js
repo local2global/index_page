@@ -34,6 +34,13 @@ const domainData = {
                 status: "active",
                 url: "https://navigation.houzhaohan.vip",
                 protocol: "https"
+            },
+            {
+                name: "pay.houzhaohan.vip",
+                description: "支付页面",
+                status: "active",
+                url: "https://pay.houzhaohan.vip",
+                protocol: "https"
             }
         ]
     },
@@ -86,13 +93,6 @@ const domainData = {
                 description: "维护页面测试",
                 status: "active",
                 url: "https://renew.njau.homes",
-                protocol: "https"
-            },
-            {
-                name: "payme.njau.homes",
-                description: "付款页面",
-                status: "active",
-                url: "https://payme.njau.homes",
                 protocol: "https"
             },
             {
@@ -364,3 +364,4 @@ function updateDomainCount() {
     document.getElementById('activeCount').textContent = activeCount;
 
 }
+
