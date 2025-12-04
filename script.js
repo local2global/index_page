@@ -18,7 +18,7 @@ const domainData = {
                 name: "blog.houzhaohan.vip",
                 description: "自己开发的个人博客",
                 status: "active",
-                url: "https://blog.example.com",
+                url: "https://blog.houzhaohan.vip",
                 protocol: "https"
             },
             {
@@ -26,6 +26,13 @@ const domainData = {
                 description: "文件存储库，需增加“/filename”路径访问对应文件",
                 status: "active",
                 url: "https://docs.houzhaohan.vip",
+                protocol: "https"
+            },
+            {
+                name: "navigation.houzhaohan.vip",
+                description: "所有域名导航",
+                status: "active",
+                url: "https://navigation.houzhaohan.vip",
                 protocol: "https"
             }
         ]
@@ -48,7 +55,7 @@ const domainData = {
                 name: "guestbook.houzhaohan.online",
                 description: "自己开发的留言板",
                 status: "active",
-                url: "https://app.mysite.com",
+                url: "https://guestbook.houzhaohan.online",
                 protocol: "https"
             },
             {
@@ -355,4 +362,5 @@ function updateDomainCount() {
     
     document.getElementById('domainCount').textContent = totalCount;
     document.getElementById('activeCount').textContent = activeCount;
+
 }
